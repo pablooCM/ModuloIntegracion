@@ -62,6 +62,7 @@
             this.buttonRegistroNuevoCliente.TabIndex = 2;
             this.buttonRegistroNuevoCliente.Text = "Registrar Nuevo Cliente";
             this.buttonRegistroNuevoCliente.UseVisualStyleBackColor = true;
+            this.buttonRegistroNuevoCliente.Click += new System.EventHandler(this.buttonRegistroNuevoCliente_Click);
             // 
             // dataGridViewModuloIntegracion
             // 
