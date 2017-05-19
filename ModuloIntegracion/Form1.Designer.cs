@@ -28,20 +28,71 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.buttonListaClientesMercadeo = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonRegistroNuevoCliente = new System.Windows.Forms.Button();
+            this.dataGridViewModuloIntegracion = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewModuloIntegracion)).BeginInit();
             this.SuspendLayout();
+            // 
+            // buttonListaClientesMercadeo
+            // 
+            this.buttonListaClientesMercadeo.Location = new System.Drawing.Point(33, 35);
+            this.buttonListaClientesMercadeo.Name = "buttonListaClientesMercadeo";
+            this.buttonListaClientesMercadeo.Size = new System.Drawing.Size(196, 23);
+            this.buttonListaClientesMercadeo.TabIndex = 0;
+            this.buttonListaClientesMercadeo.Text = "Lista de Clientes Mercadeo";
+            this.buttonListaClientesMercadeo.UseVisualStyleBackColor = true;
+            this.buttonListaClientesMercadeo.Click += new System.EventHandler(this.buttonListaClientesMercadeo_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(33, 288);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(196, 23);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Solicitudes de Servicio";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // buttonRegistroNuevoCliente
+            // 
+            this.buttonRegistroNuevoCliente.Location = new System.Drawing.Point(33, 515);
+            this.buttonRegistroNuevoCliente.Name = "buttonRegistroNuevoCliente";
+            this.buttonRegistroNuevoCliente.Size = new System.Drawing.Size(196, 23);
+            this.buttonRegistroNuevoCliente.TabIndex = 2;
+            this.buttonRegistroNuevoCliente.Text = "Registrar Nuevo Cliente";
+            this.buttonRegistroNuevoCliente.UseVisualStyleBackColor = true;
+            // 
+            // dataGridViewModuloIntegracion
+            // 
+            this.dataGridViewModuloIntegracion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewModuloIntegracion.Location = new System.Drawing.Point(339, 12);
+            this.dataGridViewModuloIntegracion.Name = "dataGridViewModuloIntegracion";
+            this.dataGridViewModuloIntegracion.Size = new System.Drawing.Size(586, 249);
+            this.dataGridViewModuloIntegracion.TabIndex = 3;
             // 
             // FormModuloIntegracion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(948, 662);
+            this.Controls.Add(this.dataGridViewModuloIntegracion);
+            this.Controls.Add(this.buttonRegistroNuevoCliente);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.buttonListaClientesMercadeo);
             this.Name = "FormModuloIntegracion";
-            this.Text = "Form1";
+            this.Text = "Módulo Integración";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewModuloIntegracion)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button buttonListaClientesMercadeo;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonRegistroNuevoCliente;
+        private System.Windows.Forms.DataGridView dataGridViewModuloIntegracion;
     }
 }
 
